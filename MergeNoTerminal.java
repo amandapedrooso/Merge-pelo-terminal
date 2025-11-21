@@ -10,7 +10,7 @@ public class MergeNoTerminal {
             System.out.println("Número 2: " + numero2);
 
             // ESTA É A LINHA QUE OS DOIS VÃO ALTERAR → GERAR CONFLITO
-            int resultado = 0; // TODO: João E Davi alterem aqui
+            int resultado = numero1 = numero2; // Soma dois dois números
 
             System.out.println("Resultado: " + resultado);
         }
